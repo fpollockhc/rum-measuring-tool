@@ -1,0 +1,129 @@
+{
+  "version": 4,
+  "serial": 5,
+  "lineage": "synthetic-azure-5",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "managed_5_1",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_5_3",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_5_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_5_2",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "managed_5_8",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_storage_account",
+      "name": "managed_5_7",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_key_vault",
+      "name": "managed_5_3",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_storage_account",
+      "name": "managed_5_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_linux_virtual_machine",
+      "name": "managed_5_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "managed_5_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_key_vault",
+      "name": "managed_5_2",
+      "instances": [
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    }
+  ]
+}

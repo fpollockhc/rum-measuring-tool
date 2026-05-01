@@ -1,0 +1,143 @@
+{
+  "version": 4,
+  "serial": 1,
+  "lineage": "synthetic-aws-1",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_1_2",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_1_3",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_ami",
+      "name": "data_1_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_1_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_1_2",
+      "instances": [
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_1_7",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_1_1",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_1_8",
+      "instances": [
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_1_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_1_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_1_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_1_3",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_4"
+    }
+  ]
+}

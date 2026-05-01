@@ -1,0 +1,140 @@
+{
+  "version": 4,
+  "serial": 17,
+  "lineage": "synthetic-azure-17",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_17_2",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_key_vault",
+      "name": "managed_17_3",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "azurerm_client_config",
+      "name": "data_17_3",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_linux_virtual_machine",
+      "name": "managed_17_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_storage_account",
+      "name": "managed_17_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_key_vault",
+      "name": "managed_17_7",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_storage_account",
+      "name": "managed_17_1",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_17_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_key_vault",
+      "name": "managed_17_5",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_linux_virtual_machine",
+      "name": "managed_17_9",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "managed_17_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "managed_17_8",
+      "instances": [
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    }
+  ]
+}

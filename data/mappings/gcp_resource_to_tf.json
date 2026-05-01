@@ -1,0 +1,12 @@
+{
+  "mappingVersion": "2026.03.07",
+  "updatedAt": "2026-03-07T00:00:00.000Z",
+  "source": "manual_curated",
+  "providerVersionConstraint": ">= 5.0.0",
+  "providerVersionResolved": "5.x",
+  "mappings": [
+    { "matchPrefix": "//compute.googleapis.com/projects/", "terraformType": "google_compute_instance", "rumEligible": true },
+    { "matchPrefix": "//storage.googleapis.com/projects/_/buckets/", "terraformType": "google_storage_bucket", "rumEligible": true },
+    { "matchPrefix": "//sqladmin.googleapis.com/projects/", "terraformType": "google_sql_database_instance", "rumEligible": true }
+  ]
+}

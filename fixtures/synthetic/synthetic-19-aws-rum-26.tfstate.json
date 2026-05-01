@@ -1,0 +1,125 @@
+{
+  "version": 4,
+  "serial": 19,
+  "lineage": "synthetic-aws-19",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_19_1",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_19_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_caller_identity",
+      "name": "data_19_5",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_19_1",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_caller_identity",
+      "name": "data_19_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_19_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_19_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_19_6",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_19_2",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_19_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_19_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

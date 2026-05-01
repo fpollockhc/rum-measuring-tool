@@ -1,0 +1,184 @@
+{
+  "version": 4,
+  "serial": 9,
+  "lineage": "synthetic-gcp-9",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_9_1",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_9_9",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_9_10",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_9_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_9_7",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_9_4",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_9_8",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_9_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_9_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_9_5",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_9_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_9_3",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_9_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_9_2",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_9_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

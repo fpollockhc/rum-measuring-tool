@@ -1,0 +1,13 @@
+{
+  "mappingVersion": "2026.03.07",
+  "updatedAt": "2026-03-07T00:00:00.000Z",
+  "source": "manual_curated",
+  "providerVersionConstraint": ">= 4.0.0",
+  "providerVersionResolved": "4.x",
+  "mappings": [
+    { "matchPrefix": "/subscriptions/", "terraformType": "azurerm_resource_group", "rumEligible": true },
+    { "matchPrefix": "/providers/Microsoft.Compute/virtualMachines/", "terraformType": "azurerm_virtual_machine", "rumEligible": true },
+    { "matchPrefix": "/providers/Microsoft.Storage/storageAccounts/", "terraformType": "azurerm_storage_account", "rumEligible": true },
+    { "matchPrefix": "/providers/Microsoft.Network/virtualNetworks/", "terraformType": "azurerm_virtual_network", "rumEligible": true }
+  ]
+}

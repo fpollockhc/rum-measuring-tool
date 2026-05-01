@@ -1,0 +1,174 @@
+{
+  "version": 4,
+  "serial": 10,
+  "lineage": "synthetic-aws-10",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_10_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_10_8",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_10_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_10_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_10_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_10_5",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_10_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_10_10",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_10_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_10_7",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_10_2",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_10_4",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_ami",
+      "name": "data_10_2",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_10_3",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_10_9",
+      "instances": [
+        {},
+        {}
+      ]
+    }
+  ]
+}

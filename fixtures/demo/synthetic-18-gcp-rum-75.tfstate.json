@@ -1,0 +1,258 @@
+{
+  "version": 4,
+  "serial": 18,
+  "lineage": "synthetic-gcp-18",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_18_10",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_18_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_18_3",
+      "instances": [
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_18_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_18_5",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_18_12",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_18_9",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_18_17",
+      "instances": [
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_15",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_18_16",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "google_client_config",
+      "name": "data_18_1",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_8",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_18_1",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_18_7",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_11",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_18_4",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_18_2",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_service_account",
+      "name": "managed_18_14",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_1"
+    },
+    {
+      "mode": "data",
+      "type": "google_project",
+      "name": "data_18_3",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_18_13",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_3"
+    }
+  ]
+}

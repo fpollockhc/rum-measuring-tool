@@ -1,0 +1,196 @@
+{
+  "version": 4,
+  "serial": 3,
+  "lineage": "synthetic-gcp-3",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_3_8",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_3_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_3_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_3_3",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_3_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_3_9",
+      "instances": [
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_3_12",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_3_1",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_3_7",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_3_6",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_3_11",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_3_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "managed_3_10",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "managed_3_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "null_3_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "managed_3_13",
+      "instances": [
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_3_2",
+      "instances": [
+        {}
+      ]
+    }
+  ]
+}

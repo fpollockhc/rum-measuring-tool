@@ -1,0 +1,52 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      - ENABLE_AWS_UNMANAGED_ESTIMATOR=${ENABLE_AWS_UNMANAGED_ESTIMATOR:-false}
+      - ENABLE_AZURE_UNMANAGED_ESTIMATOR=${ENABLE_AZURE_UNMANAGED_ESTIMATOR:-false}
+      - ENABLE_GCP_UNMANAGED_ESTIMATOR=${ENABLE_GCP_UNMANAGED_ESTIMATOR:-false}
+      - ENABLE_AWS_S3_SCAN=${ENABLE_AWS_S3_SCAN:-false}
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+    volumes:
+      - api-data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "1.0"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    ports:
+      - "5173:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+          cpus: "0.5"
+
+volumes:
+  api-data:

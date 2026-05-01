@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "scans": [
+    {
+      "id": "2e59592f-b493-47bd-b8f1-30b37d9d3095",
+      "status": "completed",
+      "createdAt": "2026-02-26T02:36:50.834Z",
+      "updatedAt": "2026-02-26T02:37:05.549Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-ui-test-20260225155516-13511",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "rum-ui-test-20260225155516-13511",
+          "provider": "aws",
+          "rum": 1045,
+          "stateFiles": 20,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "e5ddec40-c67e-44c7-bd79-c3a9ceec5565",
+      "status": "completed",
+      "createdAt": "2026-02-26T02:53:58.253Z",
+      "updatedAt": "2026-02-26T02:54:12.305Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-ui-test-20260225155516-13511",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "rum-ui-test-20260225155516-13511",
+          "provider": "aws",
+          "rum": 1045,
+          "stateFiles": 20,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "101ffd97-22c8-4eaf-ae71-7effba3d9a22",
+      "status": "completed",
+      "createdAt": "2026-02-26T02:58:34.450Z",
+      "updatedAt": "2026-02-26T02:58:47.625Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-ui-test-20260225155516-13511",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "rum-ui-test-20260225155516-13511",
+          "provider": "aws",
+          "rum": 1045,
+          "stateFiles": 20,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "03240da2-a306-4b91-ba27-466577b731c3",
+      "status": "failed",
+      "createdAt": "2026-02-26T19:13:31.115Z",
+      "updatedAt": "2026-02-26T19:13:32.887Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "customer-terraform-states"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "errorMessage": "Command failed: aws s3api list-objects-v2 --bucket customer-terraform-states --output json\n\nAn error occurred (ExpiredToken) when calling the ListObjectsV2 operation: The provided token has expired.\n"
+    },
+    {
+      "id": "ec0bcca8-5632-4b44-955e-b439bfe1258d",
+      "status": "failed",
+      "createdAt": "2026-03-02T02:57:14.177Z",
+      "updatedAt": "2026-03-02T02:57:14.181Z",
+      "request": {
+        "providers": [
+          "local"
+        ],
+        "targets": [
+          {
+            "provider": "local",
+            "directoryPath": "fixtures/synthetic",
+            "recursive": true,
+            "patterns": [
+              "*.tfstate.json"
+            ]
+          }
+        ],
+        "options": {
+          "maxObjects": 10000
+        }
+      },
+      "errorMessage": "ENOENT: no such file or directory, scandir '/Users/joelevingston/TFC RUM CALCULATOR TOOL/apps/api/fixtures/synthetic'"
+    },
+    {
+      "id": "76d9ebbf-a558-4d5b-8408-ccab71c4723c",
+      "status": "failed",
+      "createdAt": "2026-03-02T03:00:21.106Z",
+      "updatedAt": "2026-03-02T03:00:21.109Z",
+      "request": {
+        "providers": [
+          "local"
+        ],
+        "targets": [
+          {
+            "provider": "local",
+            "directoryPath": "fixtures/synthetic",
+            "recursive": true,
+            "patterns": [
+              "*.tfstate.json"
+            ]
+          }
+        ],
+        "options": {
+          "maxObjects": 10000
+        }
+      },
+      "errorMessage": "ENOENT: no such file or directory, scandir '/Users/joelevingston/TFC RUM CALCULATOR TOOL/apps/api/fixtures/synthetic'"
+    },
+    {
+      "id": "ca39a103-9e4d-4e62-8725-aba06224e68b",
+      "status": "completed",
+      "createdAt": "2026-03-02T03:00:47.022Z",
+      "updatedAt": "2026-03-02T03:00:47.027Z",
+      "request": {
+        "providers": [
+          "local"
+        ],
+        "targets": [
+          {
+            "provider": "local",
+            "directoryPath": "/Users/joelevingston/TFC RUM CALCULATOR TOOL/fixtures/synthetic",
+            "recursive": true,
+            "patterns": [
+              "*.tfstate.json"
+            ]
+          }
+        ],
+        "options": {
+          "maxObjects": 10000
+        }
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "/Users/joelevingston/TFC RUM CALCULATOR TOOL/fixtures/synthetic",
+          "provider": "local",
+          "rum": 1045,
+          "stateFiles": 20,
+          "excludedResources": 93,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "39c171fe-91d3-40e6-85cd-1848964b10f8",
+      "status": "completed",
+      "createdAt": "2026-03-02T03:04:09.804Z",
+      "updatedAt": "2026-03-02T03:04:09.810Z",
+      "request": {
+        "providers": [
+          "local"
+        ],
+        "targets": [
+          {
+            "provider": "local",
+            "directoryPath": "/Users/joelevingston/TFC RUM CALCULATOR TOOL/fixtures/synthetic",
+            "recursive": true,
+            "patterns": [
+              "*.tfstate",
+              "*.tfstate.json"
+            ]
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "/Users/joelevingston/TFC RUM CALCULATOR TOOL/fixtures/synthetic",
+          "provider": "local",
+          "rum": 1045,
+          "stateFiles": 20,
+          "excludedResources": 93,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "57718967-e6fe-4474-ba63-727fd733b2e1",
+      "status": "completed",
+      "createdAt": "2026-03-02T03:36:27.259Z",
+      "updatedAt": "2026-03-02T03:36:40.125Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-accuracy-test-20260301203621-31845",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "maxObjects": 10000
+        }
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 20,
+        "totalRum": 1045,
+        "excludedResources": 93,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "rum-accuracy-test-20260301203621-31845",
+          "provider": "aws",
+          "rum": 1045,
+          "stateFiles": 20,
+          "excludedResources": 93,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "af37a08f-94f8-4d8b-91b6-92f80ab725ef",
+      "status": "failed",
+      "createdAt": "2026-03-02T03:38:28.618Z",
+      "updatedAt": "2026-03-02T03:38:29.196Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "um-accuracy-test-20260301203621-31845",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "errorMessage": "Command failed: aws s3api list-objects-v2 --bucket um-accuracy-test-20260301203621-31845 --output json --prefix synthetic/\n\nAn error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist\n"
+    },
+    {
+      "id": "03c43f67-f1f6-4a90-a8b9-cc8515f10fac",
+      "status": "failed",
+      "createdAt": "2026-03-02T03:39:08.992Z",
+      "updatedAt": "2026-03-02T03:39:09.578Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-accuracy-test-20260301203621-31845",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "errorMessage": "Command failed: aws s3api list-objects-v2 --bucket rum-accuracy-test-20260301203621-31845 --output json --prefix synthetic/\n\nAn error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist\n"
+    },
+    {
+      "id": "0e6d134c-5cea-4370-9a6b-dd757c346ef6",
+      "status": "failed",
+      "createdAt": "2026-03-02T03:40:39.569Z",
+      "updatedAt": "2026-03-02T03:40:40.326Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "rum-accuracy-test-20260301203621-31845",
+            "prefix": "synthetic/"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "errorMessage": "Command failed: aws s3api list-objects-v2 --bucket rum-accuracy-test-20260301203621-31845 --output json --prefix synthetic/\n\nAn error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist\n"
+    },
+    {
+      "id": "82805e26-3b30-4852-aa68-a7a93df7ecbf",
+      "status": "failed",
+      "createdAt": "2026-03-02T21:19:44.017Z",
+      "updatedAt": "2026-03-02T21:19:45.380Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "customer-terraform-states"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {}
+      },
+      "errorMessage": "Command failed: aws s3api list-objects-v2 --bucket customer-terraform-states --output json\n\nAn error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied\n"
+    },
+    {
+      "id": "6d3b16f7-d526-400f-95a1-424d946f596e",
+      "status": "completed",
+      "createdAt": "2026-03-13T23:12:46.366Z",
+      "updatedAt": "2026-03-13T23:12:46.369Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "customer-terraform-states"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {
+          "awsAccessKeyId": "***redacted***",
+          "awsSecretAccessKey": "***redacted***",
+          "awsSessionToken": "***redacted***"
+        }
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 2,
+        "totalRum": 5,
+        "excludedResources": 3,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "customer-terraform-states",
+          "provider": "aws",
+          "rum": 5,
+          "stateFiles": 2,
+          "excludedResources": 3,
+          "parseErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "02de81bd-8e56-4544-b2da-3858f8610e7d",
+      "status": "completed",
+      "createdAt": "2026-03-13T23:13:49.578Z",
+      "updatedAt": "2026-03-13T23:13:49.581Z",
+      "request": {
+        "providers": [
+          "aws"
+        ],
+        "targets": [
+          {
+            "provider": "aws",
+            "bucketName": "customer-terraform-states"
+          }
+        ],
+        "options": {
+          "dryRun": true,
+          "maxObjects": 1000,
+          "concurrency": 10
+        },
+        "executionEnv": {
+          "awsAccessKeyId": "***redacted***",
+          "awsSecretAccessKey": "***redacted***",
+          "awsSessionToken": "***redacted***"
+        }
+      },
+      "summary": {
+        "bucketsScanned": 1,
+        "stateFilesParsed": 2,
+        "totalRum": 5,
+        "excludedResources": 3,
+        "parseErrors": 0
+      },
+      "byBucket": [
+        {
+          "bucketName": "customer-terraform-states",
+          "provider": "aws",
+          "rum": 5,
+          "stateFiles": 2,
+          "excludedResources": 3,
+          "parseErrors": 0
+        }
+      ]
+    }
+  ]
+}

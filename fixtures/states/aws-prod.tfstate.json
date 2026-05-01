@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "main",
+      "instances": [{}]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "meta",
+      "instances": [{}, {}]
+    }
+  ]
+}

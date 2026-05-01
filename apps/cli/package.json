@@ -1,0 +1,25 @@
+{
+  "name": "@rum-tool/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "rumctl": "dist/apps/cli/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "synthetic:test": "npm run build && node dist/apps/cli/src/index.js synthetic-test",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@rum-tool/rum-engine": "0.1.0",
+    "commander": "^12.1.0",
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^4.0.18"
+  }
+}

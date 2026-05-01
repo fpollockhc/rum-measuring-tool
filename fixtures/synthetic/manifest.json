@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-02-25T20:49:49.455Z",
+  "seed": 424242,
+  "files": [
+    {
+      "filename": "synthetic-01-aws-rum-41.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 41,
+      "countedResources": 8,
+      "excludedResources": 4,
+      "totalResources": 12
+    },
+    {
+      "filename": "synthetic-02-azure-rum-39.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 39,
+      "countedResources": 11,
+      "excludedResources": 6,
+      "totalResources": 17
+    },
+    {
+      "filename": "synthetic-03-gcp-rum-57.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 57,
+      "countedResources": 13,
+      "excludedResources": 4,
+      "totalResources": 17
+    },
+    {
+      "filename": "synthetic-04-aws-rum-70.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 70,
+      "countedResources": 14,
+      "excludedResources": 5,
+      "totalResources": 19
+    },
+    {
+      "filename": "synthetic-05-azure-rum-37.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 37,
+      "countedResources": 8,
+      "excludedResources": 3,
+      "totalResources": 11
+    },
+    {
+      "filename": "synthetic-06-gcp-rum-52.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 52,
+      "countedResources": 11,
+      "excludedResources": 6,
+      "totalResources": 17
+    },
+    {
+      "filename": "synthetic-07-aws-rum-55.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 55,
+      "countedResources": 12,
+      "excludedResources": 6,
+      "totalResources": 18
+    },
+    {
+      "filename": "synthetic-08-azure-rum-42.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 42,
+      "countedResources": 12,
+      "excludedResources": 2,
+      "totalResources": 14
+    },
+    {
+      "filename": "synthetic-09-gcp-rum-56.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 56,
+      "countedResources": 10,
+      "excludedResources": 5,
+      "totalResources": 15
+    },
+    {
+      "filename": "synthetic-10-aws-rum-47.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 47,
+      "countedResources": 10,
+      "excludedResources": 5,
+      "totalResources": 15
+    },
+    {
+      "filename": "synthetic-11-azure-rum-61.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 61,
+      "countedResources": 13,
+      "excludedResources": 3,
+      "totalResources": 16
+    },
+    {
+      "filename": "synthetic-12-gcp-rum-69.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 69,
+      "countedResources": 14,
+      "excludedResources": 5,
+      "totalResources": 19
+    },
+    {
+      "filename": "synthetic-13-aws-rum-49.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 49,
+      "countedResources": 14,
+      "excludedResources": 5,
+      "totalResources": 19
+    },
+    {
+      "filename": "synthetic-14-azure-rum-48.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 48,
+      "countedResources": 9,
+      "excludedResources": 6,
+      "totalResources": 15
+    },
+    {
+      "filename": "synthetic-15-gcp-rum-68.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 68,
+      "countedResources": 18,
+      "excludedResources": 6,
+      "totalResources": 24
+    },
+    {
+      "filename": "synthetic-16-aws-rum-47.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 47,
+      "countedResources": 11,
+      "excludedResources": 3,
+      "totalResources": 14
+    },
+    {
+      "filename": "synthetic-17-azure-rum-40.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 40,
+      "countedResources": 9,
+      "excludedResources": 3,
+      "totalResources": 12
+    },
+    {
+      "filename": "synthetic-18-gcp-rum-75.tfstate.json",
+      "provider": "gcp",
+      "expectedRum": 75,
+      "countedResources": 17,
+      "excludedResources": 5,
+      "totalResources": 22
+    },
+    {
+      "filename": "synthetic-19-aws-rum-26.tfstate.json",
+      "provider": "aws",
+      "expectedRum": 26,
+      "countedResources": 5,
+      "excludedResources": 6,
+      "totalResources": 11
+    },
+    {
+      "filename": "synthetic-20-azure-rum-66.tfstate.json",
+      "provider": "azure",
+      "expectedRum": 66,
+      "countedResources": 14,
+      "excludedResources": 5,
+      "totalResources": 19
+    }
+  ],
+  "aggregateExpectedRum": 1045
+}

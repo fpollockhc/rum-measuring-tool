@@ -1,0 +1,44 @@
+{
+  "mappingVersion": "2026.03.07",
+  "updatedAt": "2026-03-07T15:37:00.029Z",
+  "source": "manual_curated",
+  "providerVersionConstraint": ">= 6.0.0",
+  "providerVersionResolved": "unknown",
+  "mappings": [
+    {
+      "matchPrefix": "arn:aws:ec2:",
+      "terraformType": "aws_instance",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:rds:",
+      "terraformType": "aws_db_instance",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:s3:::",
+      "terraformType": "aws_s3_bucket",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:elasticloadbalancing:",
+      "terraformType": "aws_lb",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:iam::",
+      "terraformType": "aws_iam_role",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:ecs:",
+      "terraformType": "aws_ecs_cluster",
+      "rumEligible": true
+    },
+    {
+      "matchPrefix": "arn:aws:route53:::",
+      "terraformType": "aws_route53_zone",
+      "rumEligible": true
+    }
+  ]
+}

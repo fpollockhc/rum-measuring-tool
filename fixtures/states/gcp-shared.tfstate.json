@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "shared",
+      "instances": [{}, {}]
+    },
+    {
+      "mode": "data",
+      "type": "google_project",
+      "name": "current",
+      "instances": [{}]
+    }
+  ]
+}

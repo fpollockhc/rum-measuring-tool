@@ -1,0 +1,23 @@
+{
+  "version": 4,
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_machine",
+      "name": "app",
+      "instances": [{}, {}, {}, {}, {}]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "nic",
+      "instances": [{}, {}, {}]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "meta",
+      "instances": [{}, {}]
+    }
+  ]
+}

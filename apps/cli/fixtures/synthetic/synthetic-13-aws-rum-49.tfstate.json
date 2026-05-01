@@ -1,0 +1,204 @@
+{
+  "version": 4,
+  "serial": 13,
+  "lineage": "synthetic-aws-13",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_13_13",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_13_5",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_13_6",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_13_9",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_3"
+    },
+    {
+      "mode": "data",
+      "type": "aws_ami",
+      "name": "data_13_3",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_13_14",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_13_5",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_13_1",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_13_4",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_13_4",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_13_1",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_13_11",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_13_7",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_13_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_13_2",
+      "instances": [
+        {}
+      ],
+      "module": "module.env_3.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_13_12",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "managed_13_10",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_13_2",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_13_8",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

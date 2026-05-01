@@ -1,0 +1,7 @@
+targets:
+  - provider: aws
+    bucketName: customer-terraform-states
+  - provider: azure
+    bucketName: tfstate-container
+  - provider: gcp
+    bucketName: tf-state-bucket

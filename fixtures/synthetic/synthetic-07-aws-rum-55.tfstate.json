@@ -1,0 +1,207 @@
+{
+  "version": 4,
+  "serial": 7,
+  "lineage": "synthetic-aws-7",
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_7_11",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_1.module.stack_4"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_7_6",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_7_3",
+      "instances": [
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_3"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_7_10",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "managed_7_1",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_2"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_7_9",
+      "instances": [
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_7_2",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_7_4",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_7_7",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_7_4",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_7_3",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "managed_7_12",
+      "instances": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_2.module.stack_1"
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_7_2",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "module": "module.env_3.module.stack_3"
+    },
+    {
+      "mode": "data",
+      "type": "aws_ami",
+      "name": "data_7_5",
+      "instances": [
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "managed_7_8",
+      "instances": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_caller_identity",
+      "name": "data_7_1",
+      "instances": [
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "tdata_7_6",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "managed_7_5",
+      "instances": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}
