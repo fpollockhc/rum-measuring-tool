@@ -1,6 +1,6 @@
 # TFC RUM Calculator Tool
 
-Internal HashiCorp presales productivity tool for estimating Terraform **Resources Under Management (RUM)** — the billing metric for HCP Terraform Cloud and Terraform Enterprise.
+HashiCorp presales productivity tool for estimating Terraform **Resources Under Management (RUM)** — the billing metric for HCP Terraform Cloud and Terraform Enterprise.
 
 ## Quick Start
 
